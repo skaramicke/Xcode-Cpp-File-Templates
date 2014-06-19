@@ -10,3 +10,10 @@
 
 using namespace ___VARIABLE_namespaceName___;
 
+___FILEBASENAMEASIDENTIFIER___::___FILEBASENAMEASIDENTIFIER___() {
+    
+}
+
+___FILEBASENAMEASIDENTIFIER___::~___FILEBASENAMEASIDENTIFIER___() {
+    
+}

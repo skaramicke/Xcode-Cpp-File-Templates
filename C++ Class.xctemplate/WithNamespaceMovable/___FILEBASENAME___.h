@@ -10,7 +10,6 @@
 #define _____VARIABLE_namespaceName________FILEBASENAMEASIDENTIFIER_____
 
 namespace ___VARIABLE_namespaceName___ {
-    template<___VARIABLE_templateArgs___>
     class ___FILEBASENAMEASIDENTIFIER___ {
     private:
 #pragma mark - Members
@@ -19,7 +18,7 @@ namespace ___VARIABLE_namespaceName___ {
     public:
 #pragma mark - Constructos
         ___FILEBASENAMEASIDENTIFIER___();
-        ___FILEBASENAMEASIDENTIFIER___(const ___FILEBASENAMEASIDENTIFIER___& other) = default;
+        ___FILEBASENAMEASIDENTIFIER___(const ___FILEBASENAMEASIDENTIFIER___& other) = delete;
         ___FILEBASENAMEASIDENTIFIER___(___FILEBASENAMEASIDENTIFIER___&& other) = default;
         ~___FILEBASENAMEASIDENTIFIER___();
         
@@ -32,11 +31,9 @@ namespace ___VARIABLE_namespaceName___ {
         
     public:
 #pragma mark - Operators
-        ___FILEBASENAMEASIDENTIFIER___& operator=(const ___FILEBASENAMEASIDENTIFIER___& other) = default;
+        ___FILEBASENAMEASIDENTIFIER___& operator=(const ___FILEBASENAMEASIDENTIFIER___& other) = delete;
         ___FILEBASENAMEASIDENTIFIER___& operator=(___FILEBASENAMEASIDENTIFIER___&& other) = default;
     };
 }
-
-#include "___FILEBASENAME___.hpp"
 
 #endif /* defined(_____VARIABLE_namespaceName________FILEBASENAMEASIDENTIFIER_____) */

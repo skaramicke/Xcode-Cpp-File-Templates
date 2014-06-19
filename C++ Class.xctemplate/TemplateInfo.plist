@@ -37,18 +37,67 @@
 			<string>text</string>
 		</dict>
 		<dict>
-			<key>Description</key>
-			<string>The namespace the class belongs to</string>
-			<key>Identifier</key>
-			<string>namespaceName</string>
 			<key>Name</key>
 			<string>Namespace</string>
+			<key>Identifier</key>
+			<string>WithNamespace</string>
+			<key>Description</key>
+			<string>If the class has a namespace</string>
+			<key>Default</key>
+			<string>true</string>
+			<key>Required</key>
+			<true/>
+			<key>NotPersisted</key>
+			<false/>
+			<key>Type</key>
+			<string>checkbox</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Namespace</string>
+			<key>Identifier</key>
+			<string>namespaceName</string>
+			<key>Description</key>
+			<string>The namespace the class belongs to</string>
 			<key>NotPersisted</key>
 			<false/>
 			<key>Required</key>
-			<true/>
+			<false/>
 			<key>Type</key>
 			<string>text</string>
+			<key>RequiredOptions</key>
+			<dict>
+				<key>WithNamespace</key>
+				<string>true</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>Identifier</key>
+			<string>Copyable</string>
+			<key>Type</key>
+			<string>checkbox</string>
+			<key>Name</key>
+			<string>Copyable</string>
+			<key>Description</key>
+			<string>Implements defaulted copy constructor and operator</string>
+			<key>Default</key>
+			<string>true</string>
+			<key>NotPersisted</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>true</string>
+			<key>Identifier</key>
+			<string>Movable</string>
+			<key>Name</key>
+			<string>Movable</string>
+			<key>Description</key>
+			<string>Implements defaulted move constructor and operator</string>
+			<key>Type</key>
+			<string>checkbox</string>
+			<key>NotPersisted</key>
+			<true/>
 		</dict>
 	</array>
 </dict>

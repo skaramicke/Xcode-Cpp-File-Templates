@@ -3,10 +3,10 @@
 Currently this repository has 3 templates to help C++ coding with Xcode4+:
 
 - C++ Class
-- C++ Templated class
+- C++ Template Class
 - C++ Header
 
-All templates **support namespaces** and have defaulted copy and move contructors/operators.
+All templates **support namespaces** and have toggable copy and move contructors/operators.
 
 I have only tested on Xcode 5 and Xcode 6, but should work on Xcode 4 too.
 
