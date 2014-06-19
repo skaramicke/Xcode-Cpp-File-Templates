@@ -19,3 +19,10 @@ Updating is even easier:
 	cd ~/Library/Developer/Xcode/Templates/File\ Templates/C++ && git pull origin
 
 And your done! No need to restart Xcode.
+
+# Screenshots
+![image](https://github.com/Rogiel/Xcode-Cpp-File-Templates/wiki/ClassView.png)
+New C++ class
+
+![image](https://github.com/Rogiel/Xcode-Cpp-File-Templates/wiki/TemplateView.png)
+New C++ Template Class
