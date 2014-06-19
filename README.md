@@ -14,4 +14,8 @@ If you wish to add those templates to your Xcode install, you can clone the git 
 
 	git clone https://github.com/Rogiel/Xcode-Cpp-File-Templates.git ~/Library/Developer/Xcode/Templates/File\ Templates/C++
 
+Updating is even easier:
+
+	cd ~/Library/Developer/Xcode/Templates/File\ Templates/C++ && git pull origin
+
 And your done! No need to restart Xcode.
