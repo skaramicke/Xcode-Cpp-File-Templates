@@ -34,4 +34,6 @@ public:
     ___FILEBASENAMEASIDENTIFIER___& operator=(___FILEBASENAMEASIDENTIFIER___&& other) = delete;
 };
 
+#include "___FILEBASENAME___.hpp"
+
 #endif /* defined(_____PROJECTNAMEASIDENTIFIER________FILEBASENAMEASIDENTIFIER_____) */

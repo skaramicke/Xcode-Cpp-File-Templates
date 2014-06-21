@@ -37,4 +37,6 @@ namespace ___VARIABLE_namespaceName___ {
     };
 }
 
+#include "___FILEBASENAME___.hpp"
+
 #endif /* defined(_____VARIABLE_namespaceName________FILEBASENAMEASIDENTIFIER_____) */

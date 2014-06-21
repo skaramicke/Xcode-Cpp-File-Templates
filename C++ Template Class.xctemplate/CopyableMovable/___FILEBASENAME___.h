@@ -35,4 +35,6 @@ public:
     ___FILEBASENAMEASIDENTIFIER___& operator=(___FILEBASENAMEASIDENTIFIER___&& other) = default;
 };
 
+#include "___FILEBASENAME___.hpp"
+
 #endif /* defined(_____PROJECTNAMEASIDENTIFIER________FILEBASENAMEASIDENTIFIER_____) */
