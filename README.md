@@ -12,7 +12,7 @@ I have only tested on Xcode 5 and Xcode 6, but should work on Xcode 4 too.
 
 If you wish to add those templates to your Xcode install, you can clone the git repo:
 
-	git clone https://github.com/Rogiel/Xcode-Cpp-File-Templates.git ~/Library/Developer/Xcode/Templates/File\ Templates/C++
+	git clone https://github.com/skaramicke/Xcode-Cpp-File-Templates.git ~/Library/Developer/Xcode/Templates/File\ Templates/C++
 
 Updating is even easier:
 
